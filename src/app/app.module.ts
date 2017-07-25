@@ -6,6 +6,8 @@ import {
   MdIconModule,
   MdCardModule
 } from '@angular/material';
+//TODO: Import StoreModule
+//TODO Import StoreDevtoolsModule @ngrx/store-devtools
 //TODO: Declare a reducer and import it
 
 import { AppComponent } from './app.component';
@@ -18,7 +20,11 @@ import { AppComponent } from './app.component';
     MdButtonModule,
     MdIconModule,
     MdCardModule,
-    //TODO: Add storeModule
+    //TODO: Add storeModule with the reducer
+    //TODO: Instrument the store
+    // StoreDevtoolsModule.instrument({
+    //   maxAge: 25 //  Retains last 25 states
+    // })
     BrowserModule
   ],
   providers: [],
