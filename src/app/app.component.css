@@ -1,0 +1,17 @@
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url(https://upload.wikimedia.org/wikipedia/en/d/d5/Ryanair.svg);
+  background-size: cover;
+  border-radius: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.primary-color {
+  color: #073590;
+}

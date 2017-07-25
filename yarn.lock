@@ -8,6 +8,12 @@
   dependencies:
     tslib "^1.7.1"
 
+"@angular/cdk@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "http://repo.ryanair.com:8081/artifactory/api/npm/ryanair-npm/@angular/cdk/-/cdk-2.0.0-beta.8.tgz#71961c851dfbeb19e085e898bf5e4461408f8b57"
+  dependencies:
+    tslib "^1.7.1"
+
 "@angular/cli@1.2.4":
   version "1.2.4"
   resolved "http://repo.ryanair.com:8081/artifactory/api/npm/ryanair-npm/@angular/cli/-/cli-1.2.4.tgz#04f7c0d9a2ee2cfd7cc11a3c1a89b87f03e14f8e"
@@ -117,6 +123,12 @@
 "@angular/language-service@^4.0.0":
   version "4.3.1"
   resolved "http://repo.ryanair.com:8081/artifactory/api/npm/ryanair-npm/@angular/language-service/-/language-service-4.3.1.tgz#9910833fc89ddaac3e48d3ffaf8bb893618cda11"
+
+"@angular/material@^2.0.0-beta.8":
+  version "2.0.0-beta.8"
+  resolved "http://repo.ryanair.com:8081/artifactory/api/npm/ryanair-npm/@angular/material/-/material-2.0.0-beta.8.tgz#a92852abc9261aea26c2401f576645470be2cf38"
+  dependencies:
+    tslib "^1.7.1"
 
 "@angular/platform-browser-dynamic@^4.0.0":
   version "4.3.1"
