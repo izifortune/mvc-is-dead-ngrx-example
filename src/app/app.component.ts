@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-//TODO: Import the Store
+import { Store } from '@ngrx/store';
+import { INCREMENT, DECREMENT } from './reducer';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +8,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public counter = 0;
+  public counter;
 
-  //TODO: Connect component to the store
-  //TODO: Add function increment
-  //TODO: Add function descrement
+  constructor(private store$: Store<any>) {
+    this.counter = this.store$.select('counter');
+  }
+
+  public increment() {
+    this.store$.dispatch({
+      type: INCREMENT
+    });
+  }
+
+  public decrement() {
+    this.store$.dispatch({
+      type: DECREMENT
+    });
+  }
 }

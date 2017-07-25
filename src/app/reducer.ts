@@ -1,4 +1,15 @@
 import { Action } from '@ngrx/store';
 
-//TODO Declare the actions and export them
-//TODO Create the reducer and export it
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+
+export function counter(state = 0, action: Action) {
+  switch(action.type) {
+    case INCREMENT:
+      return state + 1;
+    case DECREMENT:
+      return state - 1;
+    default:
+      return state;
+  }
+} 
